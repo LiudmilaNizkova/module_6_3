@@ -1,0 +1,65 @@
+<acceptance-test-run title="Login to email" name="Login to email" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="31078" timestamp="2015-06-26T13:37:08.748-03:00">
+  <user-story id="LookupADefinition" name="Lookup a definition" path="stories/consult_dictionary/LookupADefinition.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="capability"/>
+    <tag name="Consult dictionary/Lookup a definition" type="story"/>
+    <tag name="Lookup a definition" type="story"/>
+  </tags>
+  <test-group name="Given the user is on the Main Yandex page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d5fa33bdc1e2ef341ed033a0f329cc02_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="15945">
+      <screenshots>
+        <screenshot image="d5fa33bdc1e2ef341ed033a0f329cc02_NONE.png"/>
+      </screenshots>
+      <description>Is the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user enter login &apos;ludik.ludik2015&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d5fa33bdc1e2ef341ed033a0f329cc02_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2712">
+      <screenshots>
+        <screenshot image="7dce070a5d2436edd24f30a7f708f7bc_NONE.png"/>
+      </screenshots>
+      <description>Enter login: &lt;span class=&apos;step-parameter&apos;&gt;ludik.ludik2015&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user enter password &apos;Qwerty111&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="7dce070a5d2436edd24f30a7f708f7bc_NONE.png"/>
+      <screenshot image="43126025ea8d4596546d0c98cb01f31f_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2243">
+      <screenshots>
+        <screenshot image="471d18cc5cb3286b7daa1a779ca3ea84_NONE.png"/>
+        <screenshot image="aa1c23c895dd7d72709fdc8d804e7079_NONE.png"/>
+      </screenshots>
+      <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;Qwerty111&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user click logonButton" result="SUCCESS">
+    <screenshots>
+      <screenshot image="43126025ea8d4596546d0c98cb01f31f_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="5624">
+      <screenshots>
+        <screenshot image="d666880bf617676dded69d264f94c990_NONE.png"/>
+      </screenshots>
+      <description>Click button login</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then the user loggin to mail box see the loggedusername &apos;ludik.ludik2015@yandex.ru&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d666880bf617676dded69d264f94c990_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1279">
+      <screenshots>
+        <screenshot image="d666880bf617676dded69d264f94c990_NONE.png"/>
+      </screenshots>
+      <description>Should see logged user: &lt;span class=&apos;step-parameter&apos;&gt;ludik.ludik2015@yandex.ru&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

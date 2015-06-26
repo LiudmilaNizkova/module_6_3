@@ -1,0 +1,22 @@
+{"xref": {
+  "whenMade": 1435336690662,
+  "createdBy": "JBehave",
+  "metaFilter": "-ignore",
+  "meta": [],
+  "stories": [
+    {
+      "description": "",
+      "narrative": "",
+      "name": "LookupADefinition.story",
+      "path": "stories/consult_dictionary/LookupADefinition.story",
+      "html": "stories.consult_dictionary.LookupADefinition.html",
+      "meta": "",
+      "scenarios": "Scenario:Login to email\u000aGiven the user is on the Main Yandex page\u000aWhen the user enter login 'ludik.ludik2015'\u000aWhen the user enter password 'Qwerty111'\u000aWhen the user click logonButton\u000aThen the user loggin to mail box see the loggedusername 'ludik.ludik2015@yandex.ru'\u000a\u000a\u000aScenario:Write new email and save it in draft folder\u000aGiven the user is on Home Yandex page\u000aWhen the user writes emailSubject 'test module 5'\u000aWhen the user save draft email with 'Hello!\\n\\nThis is test of Module 5.\\n\\nBye'\u000aThen user see email in draft folder with subject and quit 'test module 5'\u000a\u000a\u000a",
+      "passed": false,
+      "pending": false,
+      "started": 1435336628527,
+      "duration": 54625
+    }
+  ],
+  "stepMatches": []
+}}

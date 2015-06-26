@@ -1,0 +1,37 @@
+<xref>
+  <whenMade>1435336690662</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description></description>
+      <narrative></narrative>
+      <name>LookupADefinition.story</name>
+      <path>stories/consult_dictionary/LookupADefinition.story</path>
+      <html>stories.consult_dictionary.LookupADefinition.html</html>
+      <meta></meta>
+      <scenarios>Scenario:Login to email
+Given the user is on the Main Yandex page
+When the user enter login &apos;ludik.ludik2015&apos;
+When the user enter password &apos;Qwerty111&apos;
+When the user click logonButton
+Then the user loggin to mail box see the loggedusername &apos;ludik.ludik2015@yandex.ru&apos;
+
+
+Scenario:Write new email and save it in draft folder
+Given the user is on Home Yandex page
+When the user writes emailSubject &apos;test module 5&apos;
+When the user save draft email with &apos;Hello!\n\nThis is test of Module 5.\n\nBye&apos;
+Then user see email in draft folder with subject and quit &apos;test module 5&apos;
+
+
+</scenarios>
+      <passed>false</passed>
+      <pending>false</pending>
+      <started>1435336628527</started>
+      <duration>54625</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

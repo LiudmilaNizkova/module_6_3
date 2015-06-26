@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="66.269" errors="1" skipped="1" tests="12" name="jbehave.AcceptanceTestSuite">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_13\jre\bin"/>
+    <property name="java.vm.version" value="23.7-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Workspace\task_module_6_3"/>
+    <property name="java.runtime.version" value="1.7.0_13-b20"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_13\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LIUDMI~1.COM\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jre7\bin;C:\Program Files\Java\jdk1.7.0_13\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\maven\\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Liudmila_Nizkova@epam.com"/>
+    <property name="user.timezone" value="America/Bahia"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="Liudmila_Nizkova"/>
+    <property name="java.class.path" value="C:\Program Files\maven\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_13\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify thucydides:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_13"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_13\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_13\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_13\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.019" classname="java.lang.Object" name="BeforeStories"/>
+  <testcase time="16.571" classname="jbehave.DefinitionSteps" name="Given the user is on the Main Yandex page"/>
+  <testcase time="2.886" classname="jbehave.DefinitionSteps" name="When the user enter login \&apos;ludik.ludik2015\&apos;"/>
+  <testcase time="2.476" classname="jbehave.DefinitionSteps" name="When the user enter password \&apos;Qwerty111\&apos;"/>
+  <testcase time="5.998" classname="jbehave.DefinitionSteps" name="When the user click logonButton"/>
+  <testcase time="1.654" classname="jbehave.DefinitionSteps" name="Then the user loggin to mail box see the loggedusername \&apos;ludik.ludik2015@yandex.ru\&apos;"/>
+  <testcase time="1.902" classname="Scenario: Login to email" name="Scenario: Login to email"/>
+  <testcase time="2.376" classname="jbehave.DefinitionSteps" name="Given the user is on Home Yandex page"/>
+  <testcase time="14.837" classname="jbehave.DefinitionSteps" name="When the user writes emailSubject \&apos;test module 5\&apos;"/>
+  <testcase time="4.454" classname="jbehave.DefinitionSteps" name="When the user save draft email with \&apos;Hello!\\n\\nThis is test of Module 5.\\n\\nBye\&apos;">
+    <error message="Element is no longer attached to the DOM
+Command duration or timeout: 190 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;EPBYMINW0918&apos;, ip: &apos;10.6.176.58&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_13&apos;
+Session ID: c91d8653-4f9d-4fbe-ac72-6f4f2b227882
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0.5}]" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: Element is no longer attached to the DOM
+Command duration or timeout: 190 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;EPBYMINW0918&apos;, ip: &apos;10.6.176.58&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_13&apos;
+Session ID: c91d8653-4f9d-4fbe-ac72-6f4f2b227882
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0.5}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:320)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.isElementUsable(SmartAjaxElementLocator.java:87)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator$SlowLoadingElement.isLoaded(SmartAjaxElementLocator.java:166)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:48)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:99)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:58)
+	at net.thucydides.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:115)
+	at net.thucydides.core.pages.WebElementFacadeImpl$4.apply(WebElementFacadeImpl.java:646)
+	at net.thucydides.core.pages.WebElementFacadeImpl$4.apply(WebElementFacadeImpl.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at net.thucydides.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:729)
+	at net.thucydides.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:543)
+	at net.thucydides.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:794)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at net.thucydides.core.annotations.locators.SmartElementHandler.invoke(SmartElementHandler.java:58)
+	at sun.proxy.$Proxy18.click(Unknown Source)
+	at pages.DictionaryPage.openDraftFolder(DictionaryPage.java:135)
+	at steps.EndUserSteps.saveDraftEmail(EndUserSteps.java:58)
+	at steps.EndUserSteps$$EnhancerByCGLIB$$68e1903d.CGLIB$saveDraftEmail$3(&lt;generated&gt;)
+	at steps.EndUserSteps$$EnhancerByCGLIB$$68e1903d$$FastClassByCGLIB$$6a41f954.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:300)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:285)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:261)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:125)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:51)
+	at steps.EndUserSteps$$EnhancerByCGLIB$$68e1903d.saveDraftEmail(&lt;generated&gt;)
+	at jbehave.DefinitionSteps.whenTheUserSaveDraftEmailWithBody(DefinitionSteps.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:595)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:535)
+	at org.jbehave.core.embedder.StoryRunner.runStepsWhileKeepingState(StoryRunner.java:515)
+	at org.jbehave.core.embedder.StoryRunner.runScenarioSteps(StoryRunner.java:479)
+	at org.jbehave.core.embedder.StoryRunner.runStepsWithLifecycle(StoryRunner.java:445)
+	at org.jbehave.core.embedder.StoryRunner.runCancellable(StoryRunner.java:305)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:220)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:181)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:235)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:207)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element is no longer attached to the DOM
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;EPBYMINW0918&apos;, ip: &apos;10.6.176.58&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_13&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:8956)
+	at &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/Users/LIUDMI~1.COM/AppData/Local/Temp/anonymous8324934206572147586webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8546)
+	at &lt;anonymous class&gt;.WebElement.isElementDisplayed(file:///C:/Users/LIUDMI~1.COM/AppData/Local/Temp/anonymous8324934206572147586webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11789)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/LIUDMI~1.COM/AppData/Local/Temp/anonymous8324934206572147586webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/LIUDMI~1.COM/AppData/Local/Temp/anonymous8324934206572147586webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/LIUDMI~1.COM/AppData/Local/Temp/anonymous8324934206572147586webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+</error>
+    <system-out>When the user writes emailSubject &apos;test module 5&apos;
+</system-out>
+    <system-err>54179 [pool-1-thread-1] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: saveDraftEmail
+</system-err>
+  </testcase>
+  <testcase time="4.821" classname="jbehave.DefinitionSteps" name="Then user see email in draft folder with subject and quit \&apos;test module 5\&apos;">
+    <skipped/>
+  </testcase>
+  <testcase time="2.623" classname="java.lang.Object" name="AfterStories"/>
+</testsuite>

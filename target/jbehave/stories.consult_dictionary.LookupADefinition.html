@@ -1,0 +1,71 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/consult_dictionary/LookupADefinition.story</div>
+<div class="scenario">
+<h2>Scenario: Login to email</h2>
+<div class="step successful">Given the user is on the Main Yandex page</div>
+<div class="step successful">When the user enter login 'ludik.ludik2015'</div>
+<div class="step successful">When the user enter password 'Qwerty111'</div>
+<div class="step successful">When the user click logonButton</div>
+<div class="step successful">Then the user loggin to mail box see the loggedusername 'ludik.ludik2015@yandex.ru'</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Write new email and save it in draft folder</h2>
+<div class="step successful">Given the user is on Home Yandex page</div>
+<div class="step successful">When the user writes emailSubject 'test module 5'</div>
+<div class="step failed">When the user save draft email with 'Hello!\n\nThis is test of Module 5.\n\nBye' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.openqa.selenium.StaleElementReferenceException: Element is no longer attached to the DOM
+Command duration or timeout: 190 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'EPBYMINW0918', ip: '10.6.176.58', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_13'
+Session ID: c91d8653-4f9d-4fbe-ac72-6f4f2b227882
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0.5}]</span></div>
+<div class="step notPerformed">Then user see email in draft folder with subject and quit 'test module 5' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<pre class="failure">org.openqa.selenium.StaleElementReferenceException: Element is no longer attached to the DOM
+Command duration or timeout: 190 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'EPBYMINW0918', ip: '10.6.176.58', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_13'
+Session ID: c91d8653-4f9d-4fbe-ac72-6f4f2b227882
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0.5}]
+	(reflection-construct)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:320)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.isElementUsable(SmartAjaxElementLocator.java:87)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator$SlowLoadingElement.isLoaded(SmartAjaxElementLocator.java:166)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:48)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:99)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:58)
+	at net.thucydides.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:115)
+	at net.thucydides.core.pages.WebElementFacadeImpl$4.apply(WebElementFacadeImpl.java:646)
+	at net.thucydides.core.pages.WebElementFacadeImpl$4.apply(WebElementFacadeImpl.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at net.thucydides.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:729)
+	at net.thucydides.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:543)
+	at net.thucydides.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:794)
+	(reflection-invoke)
+	at net.thucydides.core.annotations.locators.SmartElementHandler.invoke(SmartElementHandler.java:58)
+	at sun.proxy.$Proxy18.click(Unknown Source)
+	at pages.DictionaryPage.openDraftFolder(DictionaryPage.java:135)
+	at steps.EndUserSteps.saveDraftEmail(EndUserSteps.java:58)
+	at steps.EndUserSteps$$EnhancerByCGLIB$$68e1903d.CGLIB$saveDraftEmail$3(&lt;generated&gt;)
+	at steps.EndUserSteps$$EnhancerByCGLIB$$68e1903d$$FastClassByCGLIB$$6a41f954.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:300)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:285)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:261)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:125)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:51)
+	at steps.EndUserSteps$$EnhancerByCGLIB$$68e1903d.saveDraftEmail(&lt;generated&gt;)
+	at jbehave.DefinitionSteps.whenTheUserSaveDraftEmailWithBody(DefinitionSteps.java:26)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:595)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:535)
+...</pre>
+</div>
+</div>
